@@ -12,11 +12,6 @@ def s(x, y, z):
 def trch(x, y, z):
     return bool((x + y > z) and (y + z > x) and (z + x > y))
 
-
-s1 = 'Undefined'
-s2 = 'Undefined'
-s3 = 'Undefined'
-
 storony = input('Enter sides splited with space: ')
 sides = storony.split(' ')
 for i, value in enumerate(sides):
