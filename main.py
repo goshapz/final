@@ -8,7 +8,6 @@ def p(x,  y, z):
 def s(x, y, z):
     return math.sqrt(p(x, y, z) * (p(x, y, z)-x) * (p(x, y, z)-y) * (p(x, y, z)-z))
 
-
 def trch(x, y, z):
     return bool((x + y > z) and (y + z > x) and (z + x > y))
 
@@ -19,6 +18,7 @@ for i, value in enumerate(sides):
 sides.sort()
 print(sides)
 
+n = 0
 m = 0
 
 for i in range(len(sides)):
